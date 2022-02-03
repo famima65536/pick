@@ -32,7 +32,7 @@ fn initialize(){
     
 }
 
-fn update(sub_matches: &ArgMatches){
+fn update(_sub_matches: &ArgMatches){
     let url = "https://poggit.pmmp.io/releases.json";
     let mut easy = Easy::new();
     easy.url(url).unwrap();
